@@ -4,7 +4,7 @@ This is a simple and fun web application that fetches random jokes from the Joke
 
 ## 🌐 Live Demo
 
-[Click here to view the app](https://Mayankbaluni2004.github.io/joke-generator/)  
+[Click here to view the app](https://Mayankbaluni2004.github.io/Random-Jokes/)  
 
 ## 🚀 Features
 
