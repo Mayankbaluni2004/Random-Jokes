@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Random Joke Generator</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="joke-card">
+      <h1 class="text-3xl font-bold text-gray-800 mb-4">😂 Random Joke 😂</h1>
+      <div id="joke-content" class="w-full flex flex-col items-center">
+         <p id="joke-setup" class="joke-text text-xl md:text-2xl font-semibold italic text-blue-700"></p>
+         <p id="joke-delivery" class="joke-delivery text-lg md:text-xl font-medium text-gray-700 mt-2"></p>
+         <div id="loading-indicator" class="loading-spinner hidden"></div>
+         <p id="error-message" class="text-red-500 text-sm mt-2 hidden"></p>
+      </div>
+      <button id="new-joke-button"
+         class="mt-4 px-8 py-4 bg-gradient-to-r from-green-500 to-teal-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-green-300">
+         Get New Joke!
+      </button>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
